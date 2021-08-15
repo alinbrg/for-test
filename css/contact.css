@@ -1,0 +1,32 @@
+#contact-form{
+    display: flex;
+    color:grey;
+}
+.col-md-4{
+    width:30%;
+    border-bottom: 3px solid grey;
+}
+.col-md-12{
+    margin-top: 20px;
+    border-bottom: 3px solid grey;
+}
+.form-control{
+    background-color: #F5F5D6;
+    border:none;
+}
+.text-center{
+    border-bottom: initial;
+}
+.form-control:focus{
+    background-color: initial;
+    box-shadow:none;
+}
+.form-group:focus-within{
+    border-bottom: 3px solid #41b548;
+}
+a{
+    text-decoration: none;
+}
+ol, ul {
+    padding-left: 0;
+}

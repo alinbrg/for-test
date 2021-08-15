@@ -1,0 +1,37 @@
+#services{
+    background-color: #212b36;
+    color:#fff;
+}
+#services h2{
+    color: #f5f5f5;
+}
+.services{
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.services div{
+    flex-direction: column;
+    width:30%;
+    text-align: center;
+}
+.services h2{
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: .3s;
+    font-weight: 700;
+    margin:20px auto 10px;
+}
+.icon{
+    display: inline-block;
+    font-size: 32px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 70px;
+    color: #fff;
+    margin: 15px 0;
+    border: 5px solid rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    background: #41b548;
+}

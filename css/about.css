@@ -1,0 +1,38 @@
+/* about */
+.info{
+    width:60%;
+}
+.my-img{
+    width:30%;
+}
+.my-img img{
+    width:100%;
+}
+.introduce h2{
+    margin-top: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.introduce p{
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.introduce li{
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    width: 50%;
+    float: left;
+}
+.introduce b{
+    width: 40%;
+    display: inline-block;
+    text-transform: capitalize;
+    color: #1f2124;
+    font-size: 15px;
+    font-weight: 600;
+}

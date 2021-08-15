@@ -1,0 +1,38 @@
+/* skills */
+#skills{
+    background-color: #212b36;
+    color:#f5f5f5;
+    text-align: center;
+    padding: 80px 5%;
+}
+.skill{
+    margin:25px 0 0 0;
+}
+.skill > div{
+    width:500px;
+    height:10px;
+    background-color:#fff;
+}
+.skill>div>div{
+    height:100%;
+    background-color: #41b548;
+}
+.front{
+    width:95%;
+    animation: front 1s ease;
+}
+.back{
+    width:90%;
+    animation: back 1s ease;
+}
+.api-percent{
+    width:85%;
+    animation: api-percent 1s ease;
+}
+.database{
+    width:90%;
+    animation: database 1s ease;
+}
+.skill h4{
+    font-size: 18px;
+}

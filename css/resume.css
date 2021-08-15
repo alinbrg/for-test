@@ -1,0 +1,71 @@
+/* resume */
+.resume-item{
+    width:50%;
+    position: relative;
+}
+.resume-item h3{
+    font-size: 22px;
+    color: #41b548;
+}
+.resume-item h4{
+    font-weight: 600;
+    font-size: 17px;
+    color: #4c5667;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.resume-item p{
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.resume-item:nth-child(2n){
+    border-right: 3px solid #41b548;
+    left:0;
+    margin-right: 30px;
+}
+.resume-item:nth-child(2n+1){
+    border-left: 3px solid #41b548;
+    left:50%;
+}
+
+.resume-symbols{
+    content: "";
+    position: absolute;
+    text-align: center;
+    height: 120px;
+    line-height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    left: 0px;
+    top:0px;
+    margin-left: -60px;
+    border: 10px solid rgba(255, 255, 255, 0.48);
+    background-color: #41b548;
+}
+.resume-item:nth-child(2n) > .resume-symbols{
+    left: 100%;
+}
+.resume-item:last-child{
+    border: none;
+}
+.resume-item i{
+    color:#fff;
+}
+.experience{
+    margin:0 100px;
+}
+.resume-item:first-child{
+    margin-bottom: 50px;
+    border:none;
+}
+.resume-item:first-child .resume-symbols::after{
+    content: "";
+    height:100px;
+    width:3px;
+    background-color: #41b548;
+    display: block;
+    margin-left: 45%;
+    margin-top: -10px;
+}

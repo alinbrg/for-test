@@ -1,0 +1,58 @@
+#feedback{
+    background-color: #212b36;
+}
+#feedback .container>h2{
+    color:#f5f5f5;
+}
+.client{
+    flex-direction: column;
+
+}
+.client p{
+    line-height: 25px;
+    color: #ffffff;
+    font-size: 16px;
+}
+.client h2, .client h3{
+    font-size: 12px;
+    color: #41b548;
+}
+.client h3{
+    font-weight: 300;
+    margin-top: 0;
+}
+.client-img{
+    width:100%;
+    height:100px;
+    border-radius: 50%;
+}
+.client-img img{
+    width:100%;
+}
+.client-logo{
+    width:100px;
+    height:50px;
+}
+.client-logo img{
+    width:100%;
+}
+.client>*{
+    margin-bottom: 10px;
+}
+.hidden{
+    display: none;
+}
+.dots{
+    justify-content: center;
+}
+.dots div{
+    cursor: pointer;
+    width:10px;
+    height:10px;
+    background-color: rgba(245, 245, 245, 0.5);
+    border-radius: 50%;
+    margin:5px;
+}
+.dots .visible-dot{
+    background-color: white;
+}

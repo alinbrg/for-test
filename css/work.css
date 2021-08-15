@@ -1,0 +1,65 @@
+@import url(./animation.css);
+.project-types{
+    margin:10px 0 50px;
+}
+.project-types ul{
+    justify-content: center;
+}
+.project-types li{
+    color: #333;
+    margin: 0 15px;
+    padding: 0;
+    font-weight: 500;
+    cursor: pointer;
+}
+.project-types .active {
+    color:#41b548;
+    border-bottom: 2px solid #41b548;
+}
+.projects{
+    justify-content: center;
+}
+.project{
+    position: relative;
+    cursor: pointer;
+    width:30%;
+    flex-direction: column;
+    margin:20px;
+    transition: all .3s ease-out;
+}
+.project img{
+    width:100%;
+}
+.project p, .project h6{
+    display:none;
+    color:#41b548;
+    text-align: center;
+    transition: all .3s ease-out;
+}
+.project h6{
+    top: 35%;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: absolute;
+    
+}
+.project p{
+    bottom: 35%;
+    position: absolute;
+    font-weight: 700;
+}
+.project:hover{
+    background: black;
+}
+.project:hover img{
+    opacity: 0.6;
+}
+.project:hover  h6{
+    display: block;
+    animation: show-h6 .5s ease-out;
+}
+.project:hover p{
+    display: block;
+    animation: show-p .5s ease-out;
+}
