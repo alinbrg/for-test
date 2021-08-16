@@ -9,8 +9,8 @@
     margin:25px 0 0 0;
 }
 .skill > div{
-    width:500px;
-    height:10px;
+    width:60%;
+    height:15px;
     background-color:#fff;
 }
 .skill>div>div{
@@ -18,20 +18,23 @@
     background-color: #41b548;
 }
 .front{
-    width:95%;
+    width:100%;
     animation: front 1s ease;
 }
 .back{
     width:90%;
-    animation: back 1s ease;
 }
 .api-percent{
     width:85%;
-    animation: api-percent 1s ease;
 }
 .database{
+    width:95%;
+}
+.testing{
+    width:80%;
+}
+.ci-cd{
     width:90%;
-    animation: database 1s ease;
 }
 .skill h4{
     font-size: 18px;

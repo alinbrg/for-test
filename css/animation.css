@@ -1,35 +1,3 @@
-@keyframes front {
-    from{
-        width:0
-    }
-    to{
-        width:95%;
-    }
-}
-@keyframes back {
-    from{
-        width:0;
-    }
-    to{
-        width:90%;
-    }
-}
-@keyframes api-percent {
-    0%{
-        width:0;
-    }
-    100%{
-        width:85%;
-    }
-}
-@keyframes database {
-    0%{
-        width:0;
-    }
-    100%{
-        width:90%
-    }
-}
 @keyframes show-h6{
     from{
         top: 0;

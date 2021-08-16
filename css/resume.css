@@ -69,3 +69,32 @@
     margin-left: 45%;
     margin-top: -10px;
 }
+@media(max-width:1024px){
+    .resume-item:nth-child(2n) .experience{
+        margin:0 60px 0 0;
+    }
+    .resume-item:nth-child(2n+1) .experience{
+        margin:0 0  0 60px;
+    }
+}
+@media(max-width:768px){
+    .resume-symbols{
+        display: none;
+    }
+    .resume-item{
+        width:100%;
+    }
+    .resume-item:nth-child(2n){
+        border-right: none;
+    }
+    .resume-item:nth-child(2n+1){
+        border-left: none;
+        left:0%;
+    }
+    .resume-item:nth-child(2n) .experience{
+        margin:0 10px 0 0;
+    }
+    .resume-item:nth-child(2n+1) .experience{
+        margin:0 0  0 10px;
+    }
+}

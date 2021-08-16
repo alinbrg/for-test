@@ -7,7 +7,6 @@ body{
 .container{
     max-width:1366px;
     width:90%;
-    margin:0 auto;
 }
 /* flex */
 header>.container, .navbar ul, #home>.container, .introduce, .resume-item, .services, 
@@ -53,20 +52,24 @@ header{
     top: 0;
     width: 100%;
     z-index: 20;
-    transition: all 0.4s ease-out;
+    transition: all 0.7s ease;
     background-color: #212b36;
-    height:70px;
 }
 header>.container{
-    height:100%;
+    padding:17px;
 }
 .navbar{
+    display: block;
+    float:right;
     width:70%;
 }
-.navbar a{
+.navbar ul{
+    margin-bottom: 0;
+}
+.navbar a, .navbar-box a{
     color: #fff;
     font-size: 13px;
-    padding: 30px 15px;
+    margin: 0 15px;
     transition: .3s;
     font-weight: 600;
 }
@@ -82,13 +85,22 @@ header>.container{
 .logo span{
     color:#41b548;
 }
+.menu{
+    display: none;
+}
+.navbar-box{
+    display: none;
+    font-size: 25px;
+    letter-spacing: 2px;
+    transition: .3s;
+}
 /* home */
 #home{
     margin-top: 70px;
     width:100%;
     position: relative;
     height: 100%;
-    background-image: url(../img/bg-1.jpg);
+    background-image: url(../img/1.jpeg);
     background-color: rgba(31, 33, 36, 0.55);
     background-repeat: no-repeat;
     background-size: cover ;
@@ -152,4 +164,38 @@ footer .container{
 }
 footer{
     background-color: #212b36;
+}
+
+@media(max-width:1024px){
+    .menu{
+        display: block;
+        width:30px;
+        height:30px;
+        float:right;
+        background-color: transparent;
+        cursor: pointer;
+        transition: .4s;
+    }
+    .logo{
+        padding:15px;
+    }
+    .icon-bar{
+        background-color: #F5F5D6;
+        width:100%;
+        margin:5px 0;
+        height:4px;
+        display:block;
+    }
+    nav{
+        display: none;
+    }
+    .navbar{
+        width:40%;
+    }
+    #home i, footer i{
+        margin:5px;
+    }
+    header>.container{
+        align-items: flex-start;
+    }
 }

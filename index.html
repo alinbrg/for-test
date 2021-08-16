@@ -24,7 +24,37 @@
                     <span>M</span>annat
                 </a>
             </div>
+            <div class="navbar-box">
+                <ul>
+                    <li>
+                        <a href="#home">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#about">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#skills">SKILLS</a>
+                    </li>
+                    <li>
+                        <a href="#resume">RESUME</a>
+                    </li>
+                    <li>
+                        <a href="#services">SERVICE</a>
+                    </li>
+                    <li>
+                        <a href="#work">WORK</a>
+                    </li>
+                    <li>
+                        <a href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
             <div class="navbar">
+                <div class="menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </div>
                 <nav>
                     <ul>
                         <li>
@@ -40,16 +70,17 @@
                             <a href="#resume">RESUME</a>
                         </li>
                         <li>
-                            <a href="#service">SERVICE</a>
+                            <a href="#services">SERVICE</a>
                         </li>
                         <li>
                             <a href="#work">WORK</a>
                         </li>
                         <li>
-                            <a href="contact">CONTACT</a>
+                            <a href="#contact">CONTACT</a>
                         </li>
                     </ul>
                 </nav>
+                
             </div>
         </div>
     </header>
@@ -117,25 +148,37 @@
                     <div>
                         <div class="front"></div>
                     </div>
-                    <h4>Frontend (95%)</h4>
+                    <h4>Frontend</h4>
                 </div>
                 <div class="skill">
                     <div>
                         <div class="back"></div>
                     </div>
-                    <h4>Backend (90%)</h4>
+                    <h4>Backend</h4>
                 </div>
                 <div class="skill">
                     <div>
                         <div class="api-percent"></div>
                     </div>
-                    <h4>API (85%)</h4>
+                    <h4>API</h4>
                 </div>
                 <div class="skill">
                     <div>
                         <div class="database"></div>
                     </div>
-                    <h4>Database (90%)</h4>
+                    <h4>Database</h4>
+                </div>
+                <div class="skill">
+                    <div>
+                        <div class="testing"></div>
+                    </div>
+                    <h4>Testing</h4>
+                </div>
+                <div class="skill">
+                    <div>
+                        <div class="ci-cd"></div>
+                    </div>
+                    <h4> CI/CD</h4>
                 </div>
             </div>
         </div>
@@ -246,29 +289,30 @@
             <h2>PORTFOLIO</h2>
             <div class="project-types">
                 <ul>
-                    <li>All</li>
-                    <li>Html/Css</li>
-                    <li>JavaScript</li>
-                    <li>API</li>
+                    <li class="all">All</li>
+                    <li class="front-w">Frontend</li>
+                    <li class="back-w">Backend</li>
+                    <li class="api-w">API</li>
+                    <li class="database-w">Database</li>
                 </ul>
             </div>
             <div class="projects">
-                <div class="project html js css api">
+                <div class="project back-w">
                     <img src="img/port/1.jpg" alt="">
                     <h6>Upment MAgneto Agency</h6>
                     <p>Full Stack Developer</p>
                 </div>
-                <div class="project html css">
+                <div class="project front-w">
                     <img src="img/port/2.jpg" alt="">
                     <h6>Codetribe</h6>
                     <p>Frontend Web Developer</p>
                 </div>
-                <div class="project api">
+                <div class="project back-w">
                     <img src="img/port/3.jpg" alt="">
                     <h6>InQuest</h6>
                     <p>Senior Full Stack Developer</p>
                 </div>
-                <div class="project js api">
+                <div class="project api-w back-w">
                     <img src="img/port/4.jpg" alt="">
                     <h6>Self-Employed</h6>
                     <p>Full Stack Engineer</p>
@@ -329,7 +373,7 @@
                         <input type="email" name="email" class="form-control" id="email" placeholder="Email" required="required"> 
                     </div>
                     <div class="form-group col-md-4">
-                        <input type="text" name="name" class="form-control" id="contect" placeholder="Phone Contect" required="required">
+                        <input type="text" name="name" class="form-control" id="contect" placeholder="Phone" required="required">
                     </div>
             
                     <div class="form-group col-md-12">
@@ -365,5 +409,6 @@
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>

@@ -63,3 +63,13 @@
     display: block;
     animation: show-p .5s ease-out;
 }
+
+
+@media(max-width:768px){
+    .project{
+        width:60%;
+    }
+    .project:hover  h6{
+        display: none;
+    }
+}

@@ -35,3 +35,17 @@
     border-radius: 50%;
     background: #41b548;
 }
+
+@media(max-width:768px){
+    .services {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .services div{
+        width:100%;
+    }
+    .services div p:last-child{
+        display: none;
+    }
+}
